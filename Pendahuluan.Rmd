@@ -38,6 +38,17 @@ filled.contour(volcano,
 
 Setelah selesai membuat dokumen R Markdown yang berisikan konten tulisan beserta kode R, Anda dapat klik tombol **Knit** untuk menghasilkan dokumen baru sesuai dengan format dokumen yang diinginkan. Dalam contoh ini format dokumen keluaran R Markdown setelah menjalankan **Knit** adalah dokumen HTML. Anda dapat mengatur format dokumen keluaran dengan cara mengubah baris *output* pada YAML metadata (lihat baris paling atas dokumen ini) seperti contoh berikut:
 
+```
+---
+title: "Pendahuluan"
+author: "Muhammad Aswan Syahputra"
+date: "4/9/2019"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+```
+
 
 ## Struktur Data
 
