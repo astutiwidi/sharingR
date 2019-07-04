@@ -102,6 +102,6 @@ plot(iris) # ___
 cor(iris[, -5]) # ___
 write.csv(iris, file = "iris.csv", row.names = FALSE) # ___
 ```
-Dari catatan ringkas mengenai fungsi-fungsi di atas, dapatkah Anda menebak mana fungsi yang berjenis '*changing the environment*' dan mana yang berjenis '*calculating value*'?
+
 Sekarang Anda dipersilakan untuk menekan tombol **Knit** (Ctrl + Shift + K) untuk menghasilkan dokumen html dari dokumen R Markdown ini. 
 © 2019 GitHub, Inc.
